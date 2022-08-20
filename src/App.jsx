@@ -4,6 +4,7 @@ import {Route, Routes} from "react-router-dom";
 import {AnimatePresence} from "framer-motion"
 
 function App() {
+
     return (
         <AnimatePresence>
             <div className="w-screen h-auto flex flex-col bg-primary">
@@ -18,6 +19,7 @@ function App() {
                 </main>
             </div>
         </AnimatePresence>
+
     );
 }
 
